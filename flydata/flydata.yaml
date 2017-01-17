@@ -1,0 +1,19 @@
+init_config:
+min_collection_interval: 300
+
+instances:
+  - server: 
+    user: 
+    pass: 
+    db: 
+    port: 3308
+    type: mysql
+    schema:
+
+  - server: 
+    user: 
+    pass: 
+    db: 
+    port: 5439
+    type: redshift
+    schema: bidb
